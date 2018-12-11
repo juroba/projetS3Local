@@ -9,7 +9,10 @@ session_start();
     </head>
 
     <body>
-      <table border="1">
+      <a href="#" style="text-decoration:none" OnClick="parent.tableRDV.focus();window.print()"><input type="submit" value="Imprimer"/></a>
+    </br>
+    </br>
+      <table border="1" id="tableRDV">
         <tr>
           <td>Heure de rdv</td>
           <td>Nom</td>

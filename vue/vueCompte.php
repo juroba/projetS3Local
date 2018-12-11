@@ -32,18 +32,6 @@ class vueCompte {
 						</ul>
 						<hr>
 
-
-
-						<a href="javascript:ouvre_popup('vue/vueRdvImpr.php')">Ouverture d'un popup</a>
-						<script type="text/javascript">
-
-						function ouvre_popup(page) {
-						 window.open(page,"nom_popup","menubar=no, status=no, width=600, height=500");
-						}
-						</script>
-
-
-
 						<section id="MesPlagesHoraires" >
 							<div class="element">
 								<?php
@@ -67,6 +55,14 @@ class vueCompte {
 							</div>
 						</section>
 						<section id="MesRDV" >
+							<a href="javascript:ouvre_popup('vue/vueRdvImpr.php')"><input type="submit" value="Afficher les rendez-vous du jour pour impression"/></a>
+							<script type="text/javascript">
+
+							function ouvre_popup(page) {
+							 window.open(page,"nom_popup","menubar=no, status=no, width=600, height=500");
+							}
+							</script>
+
 							<div class="element">
 								<?php
 								foreach ($listeRDV as $row) {
