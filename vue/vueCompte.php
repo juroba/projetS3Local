@@ -34,11 +34,11 @@ class vueCompte {
 
 
 
-						<a href="javascript:ouvre_popup('vue/popup.php')">Ouverture d'un popup</a>
+						<a href="javascript:ouvre_popup('vue/vueRdvImpr.php')">Ouverture d'un popup</a>
 						<script type="text/javascript">
 
 						function ouvre_popup(page) {
-						 window.open(page,"nom_popup","menubar=no, status=no, scrollbars=no, menubar=no, width=600, height=500");
+						 window.open(page,"nom_popup","menubar=no, status=no, width=600, height=500");
 						}
 						</script>
 
